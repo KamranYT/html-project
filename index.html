@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affordable Web Design Packages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Affordable Web Design Packages</h1>
+        <p class="subtitle">Experience the industry's best web design deals at 60% Discount with 100% Money Back Guarantee</p>
+        
+        <div class="packages">
+            <!-- Package 1 -->
+            <div class="package">
+                <h2>WEB BASIC PREMIUM</h2>
+                <p class="price">$859.00 <span class="discount">$2148</span> <span class="off">60% off!</span></p>
+                <ul>
+                    <li>Unlimited Pages Website</li>
+                    <li>1 Design Concept</li>
+                    <li>1 Dedicated Designer</li>
+                    <li>Turn Around 5 Business Days</li>
+                    <li>10 Stock Photos</li>
+                    <li>Free On-Page SEO</li>
+                    <li>Free 1 Year Web Hosting</li>
+                    <li>FREE CMS Integration</li>
+                    <li>100% Satisfaction Guaranteed</li>
+                </ul>
+                <button>ORDER NOW</button>
+            </div>
+            
+            <!-- Package 2 -->
+            <div class="package">
+                <h2>WEB BASIC PLUS</h2>
+                <p class="price">$649.00 <span class="discount">$1623</span> <span class="off">60% off!</span></p>
+                <ul>
+                    <li>7 Pages Website</li>
+                    <li>1 Design Concept</li>
+                    <li>1 Dedicated Designer</li>
+                    <li>Turn Around 5 Business Days</li>
+                    <li>7 Stock Photos</li>
+                    <li>Free On-Page SEO</li>
+                    <li>W3C Certified HTML</li>
+                    <li>Add CMS for $299</li>
+                    <li>100% Satisfaction Guaranteed</li>
+                </ul>
+                <button>ORDER NOW</button>
+            </div>
+            
+            <!-- Package 3 -->
+            <div class="package">
+                <h2>WEB BASIC</h2>
+                <p class="price">$499.00 <span class="discount">$1248</span> <span class="off">60% off!</span></p>
+                <ul>
+                    <li>5 Pages Website</li>
+                    <li>1 Design Concept</li>
+                    <li>1 Dedicated Designer</li>
+                    <li>Turn Around 5 Business Days</li>
+                    <li>4 Stock Photos</li>
+                    <li>Free On-Page SEO</li>
+                    <li>W3C Certified HTML</li>
+                    <li>Add CMS for $299</li>
+                    <li>100% Satisfaction Guaranteed</li>
+                </ul>
+                <button>ORDER NOW</button>
+            </div>
+        </div>
+
+        <button class="view-all">View All Packages</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const listItems = document.querySelectorAll('.package ul li');
+            
+            listItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    this.classList.toggle('clicked');
+                });
+            });
+        });
+    </script>
+    </body>
+</html>
